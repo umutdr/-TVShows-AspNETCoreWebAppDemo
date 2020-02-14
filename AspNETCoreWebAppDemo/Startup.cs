@@ -58,7 +58,7 @@ namespace AspNETCoreWebAppDemo
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=TvShows}/{action=Index}/{id?}");
             });
         }
     }
